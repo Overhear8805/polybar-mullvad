@@ -9,6 +9,6 @@ A module for showing connection status of the Mullvad VPN service.
 [module/mullvad-status]
 type = custom/script
 exec = /usr/share/polybar/scripts/mullvad-status.sh
-interval = 5
+interval = 1
 ```
 

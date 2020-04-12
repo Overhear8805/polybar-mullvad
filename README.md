@@ -8,7 +8,7 @@ A module for showing connection status of the Mullvad VPN service.
 ```ini
 [module/mullvad-status]
 type = custom/script
-exec = ~/polybar-scripts/mullvad-status.sh
+exec = /usr/share/polybar/scripts/mullvad-status.sh
 interval = 5
 ```
 
